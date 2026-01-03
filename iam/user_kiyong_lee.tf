@@ -1,10 +1,10 @@
-resource "aws_iam_user" "gildong_hong" {
-    name = "gildong.hong"
+resource "aws_iam_user" "kiyong_lee" {
+    name = "kiyong.lee"
 }
 
-resource "aws_iam_user_policy" "art_devops_black" {
+resource "aws_iam_user_policy" "art_devops_black_gguip" {
   name  = "super-admin"
-  user  = aws_iam_user.gildong_hong.name
+  user  = aws_iam_user.kiyong_lee.name
 
   policy = <<EOF
 {
